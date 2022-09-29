@@ -28,7 +28,7 @@ twitter_username: PrabhuMadipalli
 github_username:  prabhumns
 
 # Build settings
-theme: minima
+theme: moderninst
 plugins:
   - jekyll-feed
 
