@@ -1,0 +1,29 @@
+{
+	"name": "Java",
+    "forwardPorts": [5500, 3000],
+    "image"	:"prabhumns/ubuntu:non-root",
+    "features": {
+        "ghcr.io/devcontainers/features/github-cli:1": {},
+        "ghcr.io/devcontainers/features/git:1.0.3" : {}
+    },
+	"customizations": {
+	
+		"vscode": {
+			"settings": { 
+                "files.autoSave": "afterDelay",
+                "files.autoSaveDelay": 500
+			},
+			"extensions": [
+				"dsznajder.es7-react-js-snippets",
+				"ritwickdey.LiveServer",
+				"foxundermoon.shell-format",
+				"dbaeumer.vscode-eslint",
+				"ms-azuretools.vscode-docker",
+				"yzhang.markdown-all-in-one",
+				"ecmel.vscode-html-css",
+				"thekalinga.bootstrap4-vscode"
+			]
+		}
+	},
+	"remoteUser": "app"
+}
